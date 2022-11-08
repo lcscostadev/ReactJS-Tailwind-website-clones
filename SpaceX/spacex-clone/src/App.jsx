@@ -1,8 +1,10 @@
 import React from 'react';
-import { Navbar } from './components/index';
+import { Navbar, HotbirdSection } from './components/index';
 import './App.css'
 
 function App() {
+
+  // Scroll reveal hover effects
 
   return (
     <>
@@ -10,7 +12,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-
+        <HotbirdSection />
       </main>
     </>
   )
