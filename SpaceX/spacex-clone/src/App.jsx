@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, HotbirdSection } from './components/index';
+import { Navbar, HotbirdSection, Footer } from './components/index';
 import './App.css'
 
 function App() {
@@ -14,6 +14,9 @@ function App() {
       <main>
         <HotbirdSection />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
