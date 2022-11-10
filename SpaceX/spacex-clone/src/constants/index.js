@@ -27,37 +27,41 @@ export const navLinks = [
         id: "starlink",
         title: "Starlink"
     },
+    {
+        id: "shop",
+        title: "Shop"
+    }
 ]
 
 export const footerLinks = [
 
     {
         name: 'Twitter',
-        link: 'https://twitter.com/'
+        link: 'https://twitter.com/lcscostadev'
     },
     {
         name: 'Youtube',
-        link: 'https://twitter.com/'
+        link: 'https://www.youtube.com/channel/UC34-Ya9LsJ6GCgIlpMJYvUQ'
     },
     {
         name: 'Instagram',
-        link: 'https://twitter.com/'
+        link: 'https://www.instagram.com/lcscostaa/'
     },
     {
         name: 'Flickr',
-        link: 'https://twitter.com/'
+        link: 'https://www.flickr.com'
     },
     {
         name: 'Linkedin',
-        link: 'https://twitter.com/'
+        link: 'https://www.linkedin.com/in/lcscostadev/?locale=en_US'
     },
     {
         name: 'Privacy Policy',
-        link: 'https://twitter.com/'
+        link: '#'
     },
     {
         name: 'Supliers',
-        link: 'https://twitter.com/'
+        link: '#'
     }
 
 ]

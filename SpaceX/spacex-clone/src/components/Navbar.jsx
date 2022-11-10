@@ -11,17 +11,21 @@ const Navbar = () => {
                     <div className='flex py-6 items-end lg:justify-start fixed top-0'>
                         <a href="#"><img src={spacexLogo} alt="SpaceX Logo" className='lg:max-w-[230px] max-w-[150px] mr-2' /></a>
                         <nav>
-                            <ul className='hidden lg:flex lg:items-end gap-5 font-bold uppercase text-[13px]'>
+                            <ul className='hidden lg:flex lg:items-end font-bold uppercase text-[13px]'>
                                 {navLinks.map((nav, index) => (
-                                    <li key={nav.id}>
+                                    <li key={nav.id} className={`${index === navLinks.length - 1 ? 'ml-[530px]' : 'mr-5'}`}>
                                         <a href={`#${nav.id}`} className=" py-2 links">
                                             {nav.title}
                                         </a>
                                     </li>
                                 ))}
                                 <div className='flex items-center gap-2'>
-                                    <a href="#">Shop</a>
-                                    <button>--</button>
+                                    <div id="nav-icon3">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
                                 </div>
                             </ul>
                         </nav>
@@ -35,10 +39,10 @@ const Navbar = () => {
                             <button className='btn border-2 py-4 px-12 text-[13px] font-bold'>REWATCH</button>
                         </div>
                     </section>
-                    <div className='flex'>
+                    {/* <div className='flex'>
                         <span></span>
                         <span></span>
-                    </div>
+                    </div> */}
                 </main>
             </div>
         </>
