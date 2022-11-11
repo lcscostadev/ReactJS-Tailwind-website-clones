@@ -33,6 +33,29 @@ export const navLinks = [
     }
 ]
 
+export const hamburgerLinks = [
+    {
+        id: 'mission',
+        title: 'Mission'
+    },
+    {
+        id: 'launches',
+        title: 'Launches'
+    },
+    {
+        id: 'careers',
+        title: 'Careers'
+    },
+    {
+        id: 'updates',
+        title: 'Updates'
+    },
+    {
+        id: 'shop',
+        title: 'Shop'
+    },
+]
+
 export const footerLinks = [
 
     {
