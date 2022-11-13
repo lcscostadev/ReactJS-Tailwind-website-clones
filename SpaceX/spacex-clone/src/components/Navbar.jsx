@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, } from 'react';
 import { spacexLogo, menu, close } from '../assets/index';
 import { hamburgerLinks, navLinks } from '../constants';
 import './Navbar.css';
@@ -25,7 +25,7 @@ const Navbar = () => {
                             </ul>
                         </nav>
                         <div>
-                            <img src={active ? close : menu} onClick={() => setActive((prev) => !prev)} className=" cursor-pointer pl-7 object-contain z-100" />
+                            <img src={active ? close : menu} onClick={() => setActive((prev) => !prev)} className="cursor-pointer pl-7 object-contain z-100" />
                             <div className={`${active ? 'flex' : 'hidden'} absolute top-0 md:right-[-60px] right-0 overflow-hidden bg-black h-[100vh] min-w-[340px]`}>
                                 <ul className='flex flex-col items-end mt-20 uppercase w-[100%] mr-20 gap-3'>
                                     {hamburgerLinks.map((navBurger, index) => (

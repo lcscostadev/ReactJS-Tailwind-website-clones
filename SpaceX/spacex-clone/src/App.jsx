@@ -1,7 +1,6 @@
 import React from 'react';
-import { Navbar, HotbirdSection, Footer, SameSection } from './components/index';
+import { Navbar, Footer, SameSection } from './components/index';
 import './App.css'
-import { starshipMoon } from './assets';
 
 function App() {
 
