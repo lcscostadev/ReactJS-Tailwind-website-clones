@@ -25,8 +25,8 @@ const Navbar = () => {
                             </ul>
                         </nav>
                         <div>
-                            <img src={active ? close : menu} onClick={() => setActive((prev) => !prev)} className="cursor-pointer pl-7 object-contain z-100" />
-                            <div className={`${active ? 'flex' : 'hidden'} absolute top-0 md:right-[-60px] right-0 overflow-hidden bg-black h-[100vh] min-w-[340px]`}>
+                            <img src={active ? close : menu} onClick={() => setActive((prev) => !prev)} className="z-50 cursor-pointer pl-7 " />
+                            <div className={`${active ? 'flex' : 'hidden'} absolute top-0 md:right-[-60px] right-0 bg-black h-[100vh] min-w-[340px]`}>
                                 <ul className='flex flex-col items-end mt-20 uppercase w-[100%] mr-20 gap-3'>
                                     {hamburgerLinks.map((navBurger, index) => (
                                         <li key={navBurger.id}>

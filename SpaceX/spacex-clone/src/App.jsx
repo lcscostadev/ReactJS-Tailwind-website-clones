@@ -19,8 +19,7 @@ function App() {
           <SameSection title="STARSHIP UPDATE" button="LEARN MORE" />
         </div>
         <div className='bg-[url("./assets/starship-moon.webp")] bg-local pl-10 bg-center bg-cover bg-no-repeat h-[100vh]'>
-          <SameSection title="STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON
-" button="LEARN MORE" />
+          <SameSection title={`STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON`} button="LEARN MORE" />
         </div>
       </main>
       <footer>
