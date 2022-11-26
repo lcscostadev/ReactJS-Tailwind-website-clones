@@ -25,7 +25,7 @@ const Navbar = () => {
                     <h3 className='text-[1rem] lg:text-[1.5rem] font-normal'>Watch anywhere. Cancel anytime.</h3>
                     <p className='font-normal max-w-[250px] lg:max-w-[800px] mx-auto'>Ready to watch? Enter your email to create or restart your membership.</p>
                     <div className='flex items-center justify-center flex-col lg:flex-row'>
-                        <input type="text" className='py-3 mb-3 lg:mb-0 w-[365px] lg:py-5 px-2 text-sm lg:text-lg lg:w-[450px] outline-blue-700' placeholder='Email address' />
+                        <input type="text" className='py-3 mb-3 lg:mb-0 2xs:w-[290px] xs:w-[345px] w-[20px] lg:py-5 px-2 text-sm lg:text-lg lg:w-[450px] outline-blue-700' placeholder='Email address' />
                         <button className='py-2 lg:py-[16px] bg-[#e50914] rounded-sm lg:rounded-none px-5 lg:px-6 lg:text-[1.5rem] hover:bg-[#f40612]'>Get Started</button>
                     </div>
                 </section>
