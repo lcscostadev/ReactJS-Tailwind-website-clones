@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, LeftContent, RightContent, Accordion } from './components';
+import { Navbar, LeftContent, RightContent, Accordion, Footer } from './components';
 import { tv, device, child, mobile } from './assets';
 import './App.css'
 
@@ -27,6 +27,9 @@ function App() {
           <Accordion />
         </section>
       </main>
+      <footer>
+        {/* <Footer /> */}
+      </footer>
     </>
 
   )
