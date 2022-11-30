@@ -19,7 +19,7 @@ const Accordion = () => {
     return (
         <>
             <div className='border-b-8 pb-14 border-[#333333]'>
-                <h1 className='text-[1.5rem]  2xs:max-w-[300px] max-w-[100%] lg:max-w-[100%] lg:text-[2.7rem] text-center py-10 font-bold border-t-8 border-[#333333]'>Frequently Asked Questions</h1>
+                <h1 className='text-[1.5rem]  max-w-[100%] lg:max-w-[100%] lg:text-[2.7rem] text-center py-10 font-bold border-t-8 border-[#333333]'>Frequently Asked Questions</h1>
                 <div className='w-[425px] 2xs:w-[320px]  lg:w-[780px] md:w-[640px] mx-auto mb-14'>
                     {accordionData.map((item, i) => (
                         <div className='bg-[#303030] mb-2 py-5 md:py-2 md:px-5 px-7'>

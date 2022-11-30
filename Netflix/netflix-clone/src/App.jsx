@@ -28,7 +28,7 @@ function App() {
         </section>
       </main>
       <footer>
-        {/* <Footer /> */}
+        <Footer />
       </footer>
     </>
 

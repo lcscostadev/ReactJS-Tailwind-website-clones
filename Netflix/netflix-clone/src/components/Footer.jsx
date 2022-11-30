@@ -4,9 +4,9 @@ import './Footer.css';
 const Footer = () => {
     return (
         <>
-            <div className='text-[#737373] flex flex-col items-start justify-center pt-14'>
-                <p className='md:ml-[500px]'>Questions? Call 0800 591 8943</p>
-                <div className='max-w-[1280px] mx-auto flex items-center gap-40 py-5'>
+            <div className='text-[#737373] flex flex-col pt-14 lg:ml-72 md:ml-16'>
+                <p >Questions? Call 0800 591 8943</p>
+                <div className=' flex items-start md:gap-16 lg:gap-40 py-5'>
                     <ul className='flex flex-col gap-3 text-xs'>
                         <li>
                             <a href="#">FAQ</a>
@@ -72,14 +72,14 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='md:ml-[500px]'>
+                <div>
                     <select name="select" id="lang" className='bg-transparent px-3 py-3 mb-4'>
                         <option value="portuguese" className='bg-gray-400'>Portuguese</option>
                         <option value="english" selected className='bg-gray-400'>English</option>
                     </select>
                 </div>
 
-                <p className='md:ml-[500px] mb-6 text-sm'>Netflix United States</p>
+                <p className=' mb-6 text-sm'>Netflix United States</p>
             </div>
         </>
     );
